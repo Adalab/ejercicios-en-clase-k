@@ -1,0 +1,33 @@
+h1 {
+  color: red;
+}
+
+#title-1 {
+  color: blue;
+}
+
+.header {
+  color: green;
+}
+
+.confirm {
+  color: blue;
+}
+
+.active {
+  font-size: 40px;
+}
+
+.header .title,
+.active {
+  background: pink;
+}
+/*  */
+
+.header .title {
+  background: pink;
+}
+
+.active {
+  background: pink;
+}
