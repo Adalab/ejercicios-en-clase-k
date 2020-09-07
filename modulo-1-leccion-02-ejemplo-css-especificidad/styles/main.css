@@ -1,0 +1,19 @@
+/* comment on this style and see what happens or move it to the end of the file */
+#paragraph {
+  background-color: blue;
+}
+
+/* comment on this style and see what happens or move it to the end of the file */
+.main-section #paragraph {
+  background-color: pink;
+}
+
+/* comment on this style and see what happens */
+.paragraph {
+  background-color: green;
+}
+
+/* comment on this style and see what happens move this to the beginning of the file */
+p {
+  background-color: red;
+}

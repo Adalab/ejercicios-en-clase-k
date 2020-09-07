@@ -1,0 +1,17 @@
+.header {
+  /* ¿El se hereda? */
+  background: #b8b8b8;
+  /* ¿El color de fondo se hereda? */
+  padding: 10px;
+  /* ¿El color de fondo se hereda? */
+  font-family: Arial, Helvetica, sans-serif;
+  /* ¿El color de fondo se hereda? */
+  color: #099d8d;
+}
+
+/* Aplicamos un estilo a 3 selectores diferentes */
+.header,
+.title,
+.paragraph {
+  border: 3px solid #54585b;
+}
