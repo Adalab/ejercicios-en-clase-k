@@ -1,0 +1,15 @@
+/* reset styles */
+
+* {
+  margin: 2px;
+  box-sizing: border-box;
+}
+
+.header {
+  border: solid 2px red;
+  background: black;
+}
+
+.logo {
+  width: 200px;
+}
