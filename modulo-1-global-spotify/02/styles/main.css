@@ -1,0 +1,53 @@
+/* reset styles */
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+/* header */
+
+.header {
+  padding: 0 20px 0 20px;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: center;
+  border: solid 2px red;
+  background: black;
+}
+
+.logo {
+  height: 50px;
+}
+
+.list {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.link {
+  padding: 10px;
+  background: green;
+}
+
+.link:hover {
+  background: yellow;
+}
+
+.item-premium {
+  flex-grow: 2;
+}
+
+.item-help {
+  flex-grow: 1;
+}

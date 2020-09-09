@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  height: 500px;
+  background: #999;
+}
+
+.item {
+  flex: 1 0 50%;
+}
+
+.item-2 {
+  align-self: stretch;
+}
+
+.item-6 {
+  order: -1;
+  flex: 2 0 100%;
+  background: red;
+}
+
+/* ejemplo de pseudoselectores */
+
+.item:nth-child(2n) {
+  background: #ccc;
+}
+
+.item:nth-child(2n + 1) {
+  background: #aaa;
+}

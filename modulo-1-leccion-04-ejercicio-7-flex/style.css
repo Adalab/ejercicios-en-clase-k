@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  flex-grow: 1;
+  max-width: 100px;
+  height: 100px;
+  background: #ccc;
+}
+
+.center {
+  flex-grow: 1;
+  height: 100px;
+  background: #aaa;
+}
+
+.right {
+  flex-grow: 1;
+  max-width: 150px;
+  height: 100px;
+  background: #ccc;
+  font-size: 10px;
+}
+
+.rating {
+  display: inline-block;
+  width: 70%;
+  text-align: right;
+}
+
+.score {
+  display: inline-block;
+  width: 30%;
+}
+
+.score .number {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  background: red;
+}
+
+.score .start {
+  text-align: right;
+}

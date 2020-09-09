@@ -1,0 +1,22 @@
+.container {
+  border: solid 3px #666;
+  background: #ddd;
+  box-sizing: border-box;
+  height: 200px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item {
+  border: solid 3px #999;
+  box-sizing: border-box;
+}
+
+.item-3 {
+  background: white;
+  flex-basis: 10%;
+  flex-grow: 2;
+}

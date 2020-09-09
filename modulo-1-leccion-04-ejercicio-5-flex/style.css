@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex: 1 0 10vh;
+  background: #CCC;
+}
+
+.main {
+  flex: 1 0;
+  min-height: 80vh;
+  background: #AAA;
+}
+
+.footer {
+  flex: 1 0 10vh;
+  background: #CCC;
+}
