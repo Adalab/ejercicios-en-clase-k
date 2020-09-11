@@ -1,0 +1,78 @@
+/* reset */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* main */
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #cc212a;
+}
+
+.title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.title-inner {
+  display: block;
+}
+
+/* footer */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px #cc212a solid;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background-color: #cc212a;
+  font-weight: bold;
+  border-radius: 50%;
+  transform: translate(0, -50%);
+  color: white;
+}
+
+.copy {
+  /* podemos usar: transform translate, margen negativo y posición relativa */
+  position: relative;
+  top: -20px;
+}
+
+@media all and (min-width: 768px) {
+  .footer {
+    padding: 20px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    transform: translate(0, 0);
+  }
+
+  .copy {
+    /* position: static; */
+    top: 0;
+  }
+}
