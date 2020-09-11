@@ -26,6 +26,8 @@
   box-sizing: border-box;
   font-family: Circular, Arial, Helvetica, sans-serif;
   font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -37,23 +39,13 @@ body {
   margin: 0;
 }
 
-/* html */
-
-.size-m {
-  font-size: 16px;
-}
-
-.size-xl {
-  font-size: 32px;
-}
-
 /* header */
 
 .header {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 0 20px;
+  padding: 15px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -85,18 +77,55 @@ body {
 /* main */
 
 .main {
-  margin-top: 57px; /* esto es lo que mide el haeader */
+  margin-top: 60px; /* esto es lo que mide el header */
 }
 
-.title {
-  font-size: 2rem;
-  padding: 2rem;
+/* hero area */
+
+.hero {
+  background-color: #0691ff;
+  color: white;
+}
+
+.hero-title {
+  font-size: 3rem;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+}
+
+.hero-plans {
+  background-color: #4bb84a;
+}
+
+/* benefits area */
+
+.benefits-title {
+  text-align: center;
+  font-size: 3rem;
 }
 
 .benefits {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* benefit item */
+
+.benefit {
+  display: flex;
+  align-items: center;
+}
+
+.benefit-img {
+  margin: 15px;
+  width: 100px;
+}
+
+.benefit-title {
+  font-size: 1.25rem;
 }
 
 /* footer */
@@ -125,11 +154,8 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
   }
-}
 
-@media print and (min-width: 100px) {
-  * {
-    background-color: pink;
-    font-size: 200px;
+  .benefit {
+    display: block;
   }
 }
