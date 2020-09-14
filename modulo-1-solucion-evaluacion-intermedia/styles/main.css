@@ -1,0 +1,94 @@
+/* RESET STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* HEADER */
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* En móvil debemos dejar 10px por arriba y 13px por abajo.
+     Hemos dado 10px por abajo en la clase .menu-link más 3px en esta clase*/
+  padding: 10px 0 3px 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+/* Esta es otra forma de maquetar en horizontal el menú,
+   aplicando flex al menu para que los .menu-item se vean afectados.
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+*/
+
+.menu-item {
+  display: inline-block;
+}
+
+.menu-link {
+  display: inline-block;
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+.menu-link:hover {
+  color: #3cdbc0;
+}
+
+/* MAIN */
+
+.main {
+  height: 100vh;
+  background-color: #3cdbc0;
+}
+
+.main-container {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* Esta es una forma de maquetar el H1 poniendo un width de 147px que hace que las 3 palabras se pongan una debajo de otra.
+   Con este estilo no estamos usando los span */
+.title {
+  text-align: center;
+  text-transform: capitalize;
+  /* Este texto, con una fuente de 30px tiene un 147px de ancho */
+  font-size: 30px;
+  width: 147px;
+}
+
+/* Esta es otra forma de maquetar el H1 usando los span
+.title-inner {
+  display: block;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 30px;
+}
+*/
+
+@media all and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 10px 20px 30px;
+  }
+  .title {
+    /* Este texto, con una fuente de 40px tiene un 195px de ancho */
+    font-size: 40px;
+    width: 195px;
+  }
+}
