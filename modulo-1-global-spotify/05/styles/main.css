@@ -68,6 +68,10 @@ body {
   font-weight: bold;
 }
 
+.link:hover {
+  color: #4bb84a;
+}
+
 .link-signup:before {
   padding-left: 4px;
   content: '|';
@@ -83,40 +87,62 @@ body {
 /* hero area */
 
 .hero {
+  padding: 60px 30px 30px 30px;
   background-color: #0691ff;
   color: white;
 }
 
 .hero-title {
+  max-width: 600px;
   font-size: 3rem;
+  line-height: 55px;
 }
 
 .hero-subtitle {
+  margin-top: 20px;
   font-size: 1.5rem;
 }
 
 .hero-plans {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 5px 25px;
+  border-radius: 50px;
   background-color: #4bb84a;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.hero-policy {
+  display: block;
+  margin-top: 30px;
+  font-size: 10px;
 }
 
 /* benefits area */
 
 .benefits-title {
+  margin-top: 50px;
   text-align: center;
-  font-size: 3rem;
+  font-size: 35px;
 }
 
 .benefits {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  margin: 50px auto;
+  max-width: 400px;
 }
 
 /* benefit item */
 
 .benefit {
   display: flex;
-  align-items: center;
+  align-items: left;
+  padding: 10px;
 }
 
 .benefit-img {
@@ -126,22 +152,71 @@ body {
 
 .benefit-title {
   font-size: 1.25rem;
+  line-height: 25px;
 }
 
 /* footer */
 
 .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 15px;
   background-color: black;
+}
+
+.footer,
+.footer * {
+  font-size: 10px;
+  color: #999;
+}
+
+.footer-menu-links:hover {
   color: white;
 }
 
-/* media */
+.footer-menu-items {
+  display: inline-block;
+}
+
+.footer-menu-links {
+  display: inline-block;
+  padding: 7px;
+}
+
+/* copy */
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.copy-year {
+  margin-top: 5px;
+}
+
+.copy-spain-flag {
+  margin-left: 5px;
+  height: 15px;
+  vertical-align: text-bottom;
+}
+
+/* media queries */
 
 @media all and (min-width: 768px) {
+  .hero {
+    background-image: url(../images/premium-dancer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+  }
+
   .benefits {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 700px;
   }
 
   .benefit {
@@ -153,6 +228,7 @@ body {
   .benefits {
     flex-direction: row;
     flex-wrap: nowrap;
+    max-width: 1000px;
   }
 
   .benefit {
