@@ -1,0 +1,66 @@
+<section class="newsletter">
+  <form action="https://adalab.es/newsletter" class="newsletter__form" method="POST">
+    <h3 class="newsletter__title">Subscríbete a nuestra newsletter</h3>
+    <div>
+      <label class="newsletter__label" for="name">Tu nombre</label>
+      <input
+        class="newsletter__input-text"
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Escribe tu nombre"
+      />
+    </div>
+
+    <div>
+      <label class="newsletter__label" for="password">Tu contraseña</label>
+      <input
+        class="newsletter__input-text"
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Escribe tu contraseña"
+      />
+    </div>
+
+    <div>
+      <label class="newsletter__label" for="newsletter__email">Tu email</label>
+      <input
+        class="newsletter__input-text"
+        type="text"
+        name="email"
+        placeholder="Escribe tu email"
+      />
+    </div>
+
+    <div>
+      <label class="newsletter__label">Tu fecha de nacimiento </label>
+      <select name="day">
+        <option value="">Día</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>
+      <select name="month">
+        <option value="Enero">Enero</option>
+        <option value="Febrero">Febrero</option>
+      </select>
+      <select name="year">
+        <option value="1980">1980</option>
+        <option value="1981">1981</option>
+      </select>
+    </div>
+
+    <div>
+      <input type="checkbox" name="options" id="policy" value="policy" />
+      <label for="policy">Acepta las condiciones de uso</label>
+    </div>
+
+    <div>
+      <input type="checkbox" name="options" id="ad" value="ad" />
+      <label for="ad">Permite que le enviamos publicidad</label>
+    </div>
+
+    <input type="submit" class="newsletter__button" value="Subscríbete ahora" />
+  </form>
+</section>
