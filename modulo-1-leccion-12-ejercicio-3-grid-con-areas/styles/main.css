@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+}
+
+.page {
+  height: 100vh;
+  background-color: silver;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 'cabecera cabecera' 'menu contenido' 'pie pie';
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+}
+
+.header {
+  grid-area: cabecera;
+  background-color: pink;
+}
+
+.menu {
+  grid-area: menu;
+  background-color: purple;
+}
+
+.content {
+  grid-area: contenido;
+  background-color: red;
+}
+
+.footer {
+  grid-area: pie;
+  background-color: blue;
+}
+
+@media all and (max-width: 768px) {
+  .page {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 'cabecera' 'menu' 'contenido' 'pie';
+  }
+
+  .menu {
+    grid-area: contenido;
+  }
+  .content {
+    grid-area: menu;
+  }
+}
