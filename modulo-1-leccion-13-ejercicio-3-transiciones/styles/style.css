@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+.container {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.container:hover .popup {
+  transform: translate(50vw, 50vh);
+}
+
+.popup {
+  display: inline-block;
+  padding: 10px;
+  transform: translate(50vw, 110vh);
+  position: relative;
+  margin-top: -17.5px;
+  margin-left: -38.5px;
+  border-radius: 5px;
+  background-color: red;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: white;
+  transition: transform 1s cubic-bezier(0.29, -0.5, 0.65, 1.45);
+}
+
+/* Solución alternativa
+
+body {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.container {
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.popup {
+  display: inline-block;
+  position: fixed;
+  top: 101vh;
+  transition: top ease 2s;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.container:hover .popup {
+  top: 50vh;
+} */

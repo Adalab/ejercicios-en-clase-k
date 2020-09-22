@@ -1,0 +1,61 @@
+.page {
+  padding: 100px;
+}
+
+/* transition */
+
+.transition-box {
+  width: 100px;
+  height: 100px;
+  transition: border-radius 1s ease-in-out;
+  background: grey;
+  cursor: pointer;
+}
+
+.transition-box:hover,
+.transition-box:focus {
+  border-radius: 50%;
+}
+
+/* animation */
+
+.animation-box {
+  width: 100px;
+  height: 100px;
+  animation-name: intro;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  background: grey;
+}
+
+.animation-box-2 {
+  width: 100px;
+  height: 100px;
+  animation-name: intro;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: initial;
+  animation-direction: reverse;
+  background: grey;
+}
+
+@keyframes intro {
+  from {
+    background: red;
+    transform: rotate(0);
+  }
+
+  30% {
+    transform: rotate(-135deg);
+  }
+
+  60% {
+    background: black;
+  }
+
+  to {
+    /* transform: rotate(135deg); */
+    background: black;
+  }
+}
