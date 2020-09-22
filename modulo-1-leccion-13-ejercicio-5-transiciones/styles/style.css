@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.page {
+  padding: 25px;
+}
+
+.form {
+  padding: 20px;
+  background: #ccc;
+}
+
+.input-group {
+  padding-top: 25px;
+}
+
+.label {
+  position: relative;
+  top: -31px;
+  left: 10px;
+  font-size: 10px;
+  transition: all 0.5s;
+  color: grey;
+}
+
+.input:focus + .label {
+  top: -65px;
+  left: 0;
+  font-size: inherit;
+  color: black;
+}
+
+.input {
+  display: block;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #666;
+  font-size: 18px;
+}
