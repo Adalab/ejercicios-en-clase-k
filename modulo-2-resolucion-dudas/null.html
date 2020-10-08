@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Null vs Undefined</title>
+  <link rel="stylesheet" href="https://beta.adalab.es/resources/stylesheets/all.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+  <h1>Null vs Undefined</h1>
+  <main class="null">
+    <section>
+      <pre>
+        let a = null;
+        let b; // undefined
+      </pre>
+    </section>
+    <section  class="case0">
+      <pre class="test">( a == null )</pre>
+      <span class="result">
+        true
+      </span>
+    </section>
+    <section  class="case1">
+      <pre class="test">( a === null )</pre>
+      <span class="result">
+        true
+      </span>
+    </section>
+    <section  class="case2">
+      <pre class="test">( b == undefined )</pre>
+      <span class="result">
+        true
+      </span>
+    </section>
+    <section  class="case3">
+      <pre class="test">( b === undefined )</pre>
+      <span class="result">
+        true
+      </span>
+    </section>
+    <hr/>
+    <section  class="case4">
+      <pre class="test">( a == undefined )</pre>
+      <span class="result">
+        true!!!
+      </span>
+    </section>
+    <section  class="case5">
+      <pre class="test">( b == null )</pre>
+      <span class="result">
+        true!!!
+      </span>
+    </section>
+    <hr/>
+    <section  class="case6">
+      <pre class="test">typeof( a )</pre>
+      <span class="result">
+        "object"
+      </span>
+    </section>
+    <section  class="case7">
+      <pre class="test">typeof( b )</pre>
+      <span class="result">
+        "undefined"
+      </span>
+    </section>
+  </main>
+  <script src="./null.js"></script>
+</body>
+</html>

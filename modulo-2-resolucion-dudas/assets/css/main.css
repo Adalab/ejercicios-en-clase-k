@@ -1,0 +1,75 @@
+body {
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 2em;
+}
+
+.null .test {
+  display: inline-block;
+  margin: 0 0 0 50px;
+  width: 250px;
+  color: blue;
+}
+.null .result {
+  color: red;
+}
+
+.input-to-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-to-div .data-form {
+  width: 50%;
+}
+.input-to-div .data {
+  border: solid 1px green;
+  border-radius: 5px;
+}
+.input-to-div .result {
+  display: relative;
+  width: 50%;
+  height: 3em;
+  border: solid 3px green;
+  border-radius: 5px;
+  padding-left: 1em;
+}
+
+.input-to-div .label {
+  position: relative;
+  background-color: white;
+  top: -0.7em;
+  left: 1em;
+  padding: 0.1em 1em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: inherit;
+  border-radius: 7px;
+}
+
+.input-to-div .error {
+  border: double 6px red;
+  color: darkred;
+  text-transform: uppercase;
+}
+
+.input-to-div .success {
+  border: double 6px darkcyan;
+  color: orange;
+}
+
+
+.proyecto .title {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.proyecto .fields {
+  display: none;
+}
+
+.proyecto div.visible {
+  display: block;
+}
