@@ -1,0 +1,33 @@
+body {
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 2em;
+}
+
+.number {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  box-sizing: border-box;
+  width: 320px;
+  text-align: right;
+}
+
+.buttons {
+  width: 320px;
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-self: center;
+  border: dotted 5px turquoise;
+}
+
+.key {
+  width: 100px;
+}
+
+.key:last-child {
+  margin-left: 110px;
+}
