@@ -1,0 +1,6 @@
+- [] Pintar 1 paleta -[x] Fetch obtener datos -[X] Pasear, datos,del servidor -[x] pintar la paleta en html
+- [x] POnerlo bonito
+- [] pintar muchas las paletas
+- [] Marcar como favoritas, la seleccionada por la usuaria
+- [] Filtrar por nombre
+- [] Localstorage
