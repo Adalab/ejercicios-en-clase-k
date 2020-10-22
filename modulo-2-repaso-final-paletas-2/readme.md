@@ -1,0 +1,14 @@
+- [x] Pintar 1 paleta
+  - [x] Fetch obtener datos
+  - [x] Pasear, datos,del servidor
+  - [x] pintar la paleta en html
+- [x] POnerlo bonito
+- [x] pintar muchas las paletas
+- [] Marcar como favoritas, la seleccionada por la usuaria
+  - [x] Escuchar el evento click en cada nave
+  - [x] identificar el elemento clicado
+  - [x] guardar los favoritos Array
+  - [x] añadir la clase de favorito
+  - [x] quitar la clase de favorito
+- [] Localstorage
+- [] Filtrar por nombre

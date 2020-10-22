@@ -1,0 +1,44 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.palettes-list {
+  padding: 0;
+}
+
+.palettes__item {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  list-style: none;
+}
+
+.palettes__name {
+  margin: 0;
+}
+
+.palettes__colors {
+  display: inline-block;
+  padding: 0;
+  height: 50px;
+  border: solid 5px #ccc;
+  cursor: pointer;
+}
+
+.palettes__color {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+.palettes__item--favorite .palettes__colors {
+  border-color: red;
+}
+
+.palettes__item--favorite .palettes__name {
+  font-style: italic;
+}
+
+.palettes__item--hidden {
+  display: none;
+}
