@@ -1,0 +1,10 @@
+.mainMenu {
+  display: flex;
+  flex-direction: row;
+
+  &__item {
+    list-style: none;
+    padding-left: 2em;
+    color: white;
+  }
+}

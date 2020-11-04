@@ -1,0 +1,70 @@
+.topBanner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkcyan;
+}
+
+
+
+.counter {
+  margin: 1em;
+  h5 {
+    color: white;
+  }
+  &__number {
+    color: white;
+  }
+}
+.clock {
+  margin: 1em;
+  color: white;
+  h5 {
+    color: white;
+  }
+  &__value {
+    color: white;
+  }
+}
+
+.article {
+  padding: 2em 1em 1em 1em;
+
+  &__title {
+    padding: 1em 0 0.5em 0;
+    text-decoration: underline;
+  }
+
+  &__subtitle {
+    padding: 0 0 2em 1em;
+  }
+
+  &__content--paragraph {
+      padding-bottom: 1em;
+      text-indent: 1.25em;
+    }
+}
+
+.article__comments {
+  margin-top: 30px;
+
+  &--title {
+    text-decoration: underline;
+    padding-bottom: 1em;
+  }
+
+  .article__comment {
+    padding: 1em;
+    /* border: solid lightblue 2px; */
+
+    &--from {
+      font-weight: bold;
+      color: darkcyan
+    }
+    &--replies {
+      margin-top: 5px;
+      border-left: solid darkcyan 4px;
+    }
+  }
+}
