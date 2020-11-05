@@ -1,4 +1,5 @@
 import React from 'react';
+import './Left.scss';
 
 class Left extends React.Component {
   render() {

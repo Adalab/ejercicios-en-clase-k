@@ -1,4 +1,5 @@
 import React from 'react';
+import './Right.scss';
 
 class Right extends React.Component {
   render() {
