@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  order: 0;
+}
+
+.right {
+  order: 1
+}
