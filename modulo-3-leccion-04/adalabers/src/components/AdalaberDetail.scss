@@ -1,0 +1,16 @@
+.listing{
+  &__item {
+    line-height: 2em;
+    list-style: none;
+    padding: 0 0.5em;
+    border: dotted cyan 1px;
+
+    &--title {
+      cursor: pointer;
+    }
+
+    &--imageContainer {
+      width: 150px;
+    }
+  }
+}

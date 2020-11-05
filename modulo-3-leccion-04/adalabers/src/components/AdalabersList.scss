@@ -1,0 +1,17 @@
+.listing{
+  &__header {
+    background-color: cyan;
+    color: black;
+    font-weight: bold;
+    margin-top: 2em;
+    padding: 0.5em;
+    width: 60vw;
+    box-sizing: border-box;
+  }
+
+  &__content {
+    margin-bottom: 2em;
+    width: 60vw;
+    box-sizing: border-box;
+  }
+}
