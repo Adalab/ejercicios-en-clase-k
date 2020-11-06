@@ -16,7 +16,7 @@ Los ejercicios están colocados por orden con la siguiente nomenclatura:
  - **Ejercicios de repaso intermedio**---> modulo-X-repaso-intermedio-descripcion _(Ej: modulo-1-repaso-intermedio-fire-engine)_
  - **Ejercicios de solución evaluación intermedia**---> modulo-X-solución-evaluación-intermedia-descripcion _(Ej: modulo-1-repaso-evaluación-intermedia-webpage)_
  - **Ejercicios de repaso final**---> modulo-X-repaso-final-descripcion _(Ej: modulo-1-repaso-final-webpage)_
- - **Ejercicios de resolución de dudas**---> modulo-X-resolución-de-dudas-descripcion _(Ej: modulo-1-resoluciom-de-dudas-flexbox)_
+ - **Ejercicios de resolución de dudas**---> modulo-X-resolución-de-dudas-fecha-descripcion _(Ej: modulo-1-resoluciom-de-dudas-2020-12-31-flexbox)_
  - **Ejercicios globales**---> modulo-X-global-descripcion _(Ej: modulo-1-global-spotify)_
   - **Tutoriales**---> tutorials _(Videos explicativos útiles para tener a mano)_
 
