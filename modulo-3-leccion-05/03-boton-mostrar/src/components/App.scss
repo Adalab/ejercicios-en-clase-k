@@ -1,0 +1,19 @@
+.showButton {
+  background: #333;
+  border: 3px cyan solid;
+  border-radius: 8px;
+  color: cyan;
+  cursor: pointer;
+}
+
+.article {
+  margin: 20px 10px;
+
+  &__title {
+    text-decoration: underline;
+  }
+
+  &__content {
+    margin-top: 1em;
+  }
+}
