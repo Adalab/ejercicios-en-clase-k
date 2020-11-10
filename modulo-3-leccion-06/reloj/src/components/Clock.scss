@@ -1,0 +1,17 @@
+.clock {
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 40px;
+  border: solid 5px #AAA;
+  border-radius: 20px;
+  padding: 0 5px;
+
+  &__number {
+    display: inline-block;
+    margin: 5px;
+    border: solid 2px #555;
+    border-radius: 10px;
+    background-color: #2A2A2A;
+    font-size: 32px;
+  }
+}

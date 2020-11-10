@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+}
+
+.form {
+  width: 70vw;
+  box-sizing: border-box;
+  &__label {
+    display: inline-block;
+    width: 40%;
+  }
+  &__select {
+    background: var(--background);
+    color: var(--almostwhite);
+    border: 2px var(--almostwhite) solid;
+    border-radius: 3px;
+    width: 40%;
+  }
+  &__select:focus {
+    border-color: var(--darkblue);
+  }
+  &__text {
+    background: var(--background);
+    color: var(--almostwhite);
+    border: 2px var(--almostwhite) solid;
+    border-radius: 3px;
+    width: 40%;
+  }
+  &__text:focus {
+    border-color: var(--darkblue);
+  }
+}
+
+.result {
+  width: 30vw;
+  box-sizing: border-box;
+
+  &__json {
+    border: 5px var(--almostwhite) dotted;
+    padding: 1em;
+  }
+}
