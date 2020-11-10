@@ -1,5 +1,6 @@
 import React from 'react';
 import Collapsable from './Collapsable';
+import Form from './Form';
 
 class App extends React.Component {
   render() {
@@ -12,7 +13,11 @@ class App extends React.Component {
           <p>Un párrafo</p>
         </Collapsable>
 
-        <Collapsable title="Rellena">Rellena aquí</Collapsable>
+        <Collapsable title="Rellena">
+          <Form />
+        </Collapsable>
+
+        <Collapsable title="Comparte">Pincha aquí para compartir</Collapsable>
       </div>
     );
   }
