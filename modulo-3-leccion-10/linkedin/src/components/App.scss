@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.filters {
+  box-sizing: border-box;
+  width: 35%;
+}
+
+.users {
+  box-sizing: border-box;
+  width: 65%;
+}
