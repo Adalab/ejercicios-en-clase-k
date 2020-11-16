@@ -1,0 +1,32 @@
+.listing{
+  &__header {
+    background-color: cyan;
+    color: black;
+    font-weight: bold;
+    margin: 2em auto 0 auto;
+    padding: 0.5em;
+    width: 80vw;
+    box-sizing: border-box;
+  }
+
+  &__content {
+    margin: 0 auto 2em auto;
+    width: 80vw;
+    box-sizing: border-box;
+  }
+
+  &__item {
+    line-height: 2em;
+    list-style: none;
+    padding: 0 0.5em;
+    border: dotted cyan 1px;
+
+    &--title {
+      cursor: pointer;
+    }
+
+    &--imageContainer {
+      width: 150px;
+    }
+  }
+}
