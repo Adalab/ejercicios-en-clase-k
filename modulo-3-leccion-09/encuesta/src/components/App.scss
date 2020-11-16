@@ -1,0 +1,38 @@
+.form {
+  width: 70vw;
+  box-sizing: border-box;
+  &__title {
+    text-align:center;
+    text-decoration: underline;
+    margin-bottom: 2em;
+  }
+  &__label {
+    display: inline-block;
+    width: 40%
+  }
+  &__error {
+    padding-left: 41%;
+    color: lightcoral;
+  }
+  &__select {
+    background: var(--background);
+    color: var(--almostwhite);
+    border: 2px var(--almostwhite) solid;
+    border-radius: 3px;
+    width: 40%;
+  }
+  &__select:focus {
+    border-color: var(--darkblue);
+  }
+
+  &__text {
+    background: var(--background);
+    color: var(--almostwhite);
+    border: 2px var(--almostwhite) solid;
+    border-radius: 3px;
+    width: 40%;
+  }
+  &__text:focus {
+    border-color: var(--darkblue);
+  }
+}
