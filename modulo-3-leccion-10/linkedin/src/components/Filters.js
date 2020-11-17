@@ -9,13 +9,14 @@ const Filters = (props) => (
     <form>
       <FilterName handleFilter={props.handleFilter} />
       <FilterGender handleFilter={props.handleFilter} />
-      <FilterLocation handleFilter={props.handleFilter} />
+      <FilterLocation handleFilter={props.handleFilter} cities={props.cities} />
     </form>
   </section>
 );
 
 Filters.propTypes = {
-  handleFilter: PropTypes.func.isRequired
+  handleFilter: PropTypes.func.isRequired,
+  cities: PropTypes.arrayOf(PropTypes.string).isRequired
 }
 
 export default Filters;

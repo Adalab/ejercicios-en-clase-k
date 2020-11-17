@@ -1,8 +1,15 @@
 import PropTypes from "prop-types";
 
-const FilterName = () => {
+const FilterName = (props) => {
 
-  const handleChange = (ev) => { };
+  const handleChange = (ev) => {
+    const newValue = ev.currentTarget.value;
+    const data = {
+      id: "name",
+      value: newValue,
+    };
+    props.handleFilter(data);
+  };
 
   return (
     <>

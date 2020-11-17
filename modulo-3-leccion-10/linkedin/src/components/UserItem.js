@@ -5,6 +5,26 @@ const UserItem = (props) => {
 
   const gender = originalGender;
 
+/*   const translateGender = (gender) => {
+    if (gender === "female") {
+      return "Mujer";
+    }
+    else if (gender === "male") {
+      return "Hombre";
+    }
+    else {
+      return "No binario";
+    }
+  } */
+
+  let genderEnEspañol = "No binario";
+  if (gender === "female") {
+    genderEnEspañol = "Mujer";
+  }
+  else if (gender === "male") {
+    genderEnEspañol = "Hombre";
+  }
+
   return (
     <article className="users__card">
       <div className="users__card--imgContainer">
@@ -12,7 +32,7 @@ const UserItem = (props) => {
       </div>
       <h4 className="users__card--title">{name}</h4>
       <p className="users__card--description">
-        {city} / {gender}
+        {city} / {genderEnEspañol}
       </p>
     </article>
   );
