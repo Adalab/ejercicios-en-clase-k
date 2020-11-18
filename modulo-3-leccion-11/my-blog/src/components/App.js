@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./App.scss";
 import Header from "./Header";
-import Landing from "./Landing";
+import LandingClass from "./LandingClass";
+import LandingFunctional from "./LandingFunctional";
 import ArticleClass from "./ArticleClass";
 import ArticleFunctional from "./ArticleFunctional";
 import { Switch, Route } from "react-router-dom";
@@ -11,7 +12,7 @@ const App = () => {
   const [list] = useState(ARTICLE_LIST);
 
   const renderLanding = () => {
-    return <Landing list={list} />;
+    return <LandingFunctional list={list} />;
   };
 
   const renderArticle = (props) => {
@@ -30,9 +31,9 @@ const App = () => {
         <Switch>
           {/* <Route exact path="/" render={renderLanding} /> */}
           <Route exact path="/">
-            <Landing list={list} />
+            <LandingFunctional list={list} />
           </Route>
-{/* La ruta puede ser (porque lo decido yo)
+          {/* La ruta puede ser (porque lo decido yo)
                          /article/1
                          /article/2
           y el :id recogerá el 1,2
