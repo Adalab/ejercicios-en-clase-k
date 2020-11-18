@@ -12,7 +12,8 @@ class ArticleClass extends React.Component {
 }
 
 ArticleClass.propTypes = {
-
+  match: PropTypes.object,
+  data: PropTypes.object.isRequired,
 };
 
 export default ArticleClass;

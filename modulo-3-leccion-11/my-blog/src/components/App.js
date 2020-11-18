@@ -8,7 +8,7 @@ import { Switch, Route } from "react-router-dom";
 import ARTICLE_LIST from "../data/articles.json";
 
 const App = () => {
-  const [list, setList] = useState(ARTICLE_LIST);
+  const [list] = useState(ARTICLE_LIST);
 
   const renderLanding = () => {
     return <Landing list={list} />;

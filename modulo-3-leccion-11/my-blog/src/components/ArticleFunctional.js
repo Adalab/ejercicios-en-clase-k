@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import {useParams} from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import PropTypes from "prop-types";
 
 const ArticleFunctional = (props) => {
 
@@ -19,5 +20,10 @@ const ArticleFunctional = (props) => {
     </div>
   );
 }
+
+ArticleFunctional.propTypes = {
+  match: PropTypes.object,
+  data: PropTypes.object.isRequired
+};
 
 export default ArticleFunctional;
