@@ -15,10 +15,10 @@ const App = () => {
   };
 
   const renderArticle = (props) => {
-    const articleId = parseInt(props.match.params.name);
-    const articleData = ARTICLE_LIST.find((article) => article.id === articleId);
+    console.log(props.match.params);
 
-    console.log(props.match.params.name);
+    const articleId = parseInt(props.match.params.id);
+    const articleData = ARTICLE_LIST.find((article) => article.id === articleId);
 
     return <ArticleFunctional data={articleData} {...props} />;
   };
@@ -32,7 +32,12 @@ const App = () => {
           <Route exact path="/">
             <Landing list={list} />
           </Route>
-          <Route path="/article/:name" render={renderArticle} />
+{/* La ruta puede ser (porque lo decido yo)
+                         /article/1
+                         /article/2
+          y el :id recogerá el 1,2
+*/}
+          <Route path="/article/:id" render={renderArticle} />
         </Switch>
       </main>
     </div>

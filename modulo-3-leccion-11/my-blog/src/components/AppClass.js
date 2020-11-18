@@ -24,10 +24,10 @@ class App extends React.Component {
   }
 
   renderArticle(props) {
-    const articleId = parseInt( props.match.params.name );
-    const articleData = ARTICLE_LIST.find((article)=>article.id===articleId);
+    console.log(props.match.params.id);
 
-    console.log(props.match.params.name);
+    const articleId = parseInt( props.match.params.id );
+    const articleData = ARTICLE_LIST.find((article)=>article.id===articleId);
 
     return <ArticleFunctional data={articleData} {...props} />;
   }
@@ -42,7 +42,12 @@ class App extends React.Component {
             <Route exact path="/">
               <Landing list={this.state.list} />
             </Route>
-            <Route path="/article/:name" render={this.renderArticle} />
+{/* La ruta puede ser (porque lo decido yo)
+                         /article/1
+                         /article/2
+          y el :id recogerá el 1,2
+*/}
+            <Route path="/article/:id" render={this.renderArticle} />
           </Switch>
         </main>
       </div>
