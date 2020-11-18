@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Kizzy",
+    "short": "Kizzy is an American viral immunologist at the Vaccine Research Center",
+    "text": "Kizzmekia \"Kizzy\" Shanta Corbett (born January 26, 1986) is an American viral immunologist at the Vaccine Research Center (VRC) at the National Institute of Allergy and Infectious Diseases, National Institutes of Health (NIAID NIH) based in Bethesda, Maryland. Appointed to the VRC in 2014, she is currently the scientific lead of the VRC's Coronavirus Team, with research efforts aimed at propelling novel coronavirus vaccines, including a COVID-19 vaccine.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Kizzmekia_Corbett_portrait.jpg/220px-Kizzmekia_Corbett_portrait.jpg",
+    "link": "https://en.wikipedia.org/wiki/Kizzmekia_Corbett"
+  },
+  {
+    "id": 2,
+    "title": "Ada Lovelace",
+    "short": "Ada Lovelace was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine",
+    "text": "Augusta Ada King, Countess of Lovelace (née Byron; 10 December 1815 – 27 November 1852) was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She is believed by some to be the first to recognise that the machine had applications beyond pure calculation, and to have published the first algorithm intended to be carried out by such a machine. As a result, she is often regarded as the first to recognise the full potential of computers and as one of the first to be a computer programmer.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ada_Lovelace.jpg/800px-Ada_Lovelace.jpg",
+    "link": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+  }
+]
