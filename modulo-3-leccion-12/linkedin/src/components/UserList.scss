@@ -1,0 +1,37 @@
+.users {
+  &__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  &__list-item {
+    list-style: none;
+    box-sizing: border-box;
+    width: 200px;
+  }
+
+  &__card {
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+    height: 100%;
+  }
+
+  &__card--imgContainer {
+    width: 90%;
+    margin: 10px auto;
+  }
+  &__card--img {
+    width: 100%;
+    object-fit: cover;
+  }
+  &__card--title {
+    text-align: center;
+    margin: 5px auto 10px auto;
+  }
+  &__card--description {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}

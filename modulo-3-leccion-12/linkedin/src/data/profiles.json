@@ -1,0 +1,102 @@
+[
+  {
+    "id": "c89f9785-c599-4224-9453-0a4f3644de1e",
+    "username": "greenduck138",
+    "city": "Lebus",
+    "country": "Germany",
+    "name": "Recep Liese",
+    "email": "recep.liese@example.com",
+    "gender": "male",
+    "image": "https://randomuser.me/api/portraits/men/94.jpg"
+  },
+  {
+    "id": "60fff33f-c5ab-47e8-bdc8-4c56245d2836",
+    "username": "blacklion322",
+    "city": "Leksvik",
+    "country": "Norway",
+    "name": "Nicholas Sikveland",
+    "email": "nicholas.sikveland@example.com",
+    "gender": "male",
+    "image": "https://randomuser.me/api/portraits/men/49.jpg"
+  },
+  {
+    "id": "d26bb198-6728-409e-a8eb-c6e778cedb59",
+    "username": "yellowzebra375",
+    "city": "Waalre",
+    "country": "Netherlands",
+    "name": "Irem Verkoelen",
+    "email": "irem.verkoelen@example.com",
+    "gender": "female",
+    "image": "https://randomuser.me/api/portraits/women/65.jpg"
+  },
+  {
+    "id": "cf473ff4-13a4-482f-9399-ec13424e516c",
+    "username": "blackladybug607",
+    "city": "Poitiers",
+    "country": "France",
+    "name": "Tom Morin",
+    "email": "tom.morin@example.com",
+    "gender": "male",
+    "image": "https://randomuser.me/api/portraits/men/83.jpg"
+  },
+  {
+    "id": "bd659187-fb93-4eb8-9dcf-646e152797ed",
+    "username": "crazyleopard840",
+    "city": "Cambridge",
+    "country": "United Kingdom",
+    "name": "Janet Kim",
+    "email": "janet.kim@example.com",
+    "gender": "female",
+    "image": "https://randomuser.me/api/portraits/women/7.jpg"
+  },
+  {
+    "id": "fad5fde1-6102-447a-a821-ef81679b777c",
+    "username": "happygoose290",
+    "city": "Århus C.",
+    "country": "Denmark",
+    "name": "Nikolaj Jørgensen",
+    "email": "nikolaj.jorgensen@example.com",
+    "gender": "male",
+    "image": "https://randomuser.me/api/portraits/men/21.jpg"
+  },
+  {
+    "id": "2d993a6a-6216-448d-b413-65dc3919d903",
+    "username": "goldenladybug156",
+    "city": "Logroño",
+    "country": "Spain",
+    "name": "John Martinez",
+    "email": "john.martinez@example.com",
+    "gender": "male",
+    "image": "https://randomuser.me/api/portraits/men/37.jpg"
+  },
+  {
+    "id": "987fb882-b945-4e47-8ae8-fa8f267ef670",
+    "username": "greenwolf353",
+    "city": "Lignières",
+    "country": "Switzerland",
+    "name": "Ida Lemoine",
+    "email": "ida.lemoine@example.com",
+    "gender": "female",
+    "image": "https://randomuser.me/api/portraits/women/3.jpg"
+  },
+  {
+    "id": "4704afca-7b8c-442a-8ea3-0e8383f256fc",
+    "username": "yellowdog742",
+    "city": "Sundby",
+    "country": "Denmark",
+    "name": "Mads Pedersen",
+    "email": "mads.pedersen@example.com",
+    "gender": "male",
+    "image": "https://randomuser.me/api/portraits/men/85.jpg"
+  },
+  {
+    "id": "663874e6-9933-407b-b06b-46428ca0c2bb",
+    "username": "bigfrog655",
+    "city": "Elgin",
+    "country": "Canada",
+    "name": "Alicia Johnson",
+    "email": "alicia.johnson@example.com",
+    "gender": "female",
+    "image": "https://randomuser.me/api/portraits/women/61.jpg"
+  }
+]
