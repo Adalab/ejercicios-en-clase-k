@@ -1,0 +1,67 @@
+.background {
+  position: fixed;
+  z-index: 998;
+  background-color: #00007777;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__window {
+  display: relative;
+  z-index: 999;
+  min-width: 50vw;
+  max-width: 90vw;
+  min-height: 30vh;
+  max-width: 80vh;
+  border: 5px cyan solid;
+  border-radius: 20px;
+  background: #1c1c1c;
+  padding: 20px;
+
+  h3 {
+    color: cyan;
+    animation: blink 1.5s linear infinite;
+  }
+}
+
+.modal__button {
+  position: relative;
+  border: 5px cyan solid;
+  border-radius: 30px;
+  background: #1c1c1c;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__close {
+  top: -45px;
+  left: -80px;
+  button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+  }
+}
