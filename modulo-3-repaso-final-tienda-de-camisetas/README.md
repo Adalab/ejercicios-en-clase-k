@@ -27,4 +27,4 @@ Hemos resuelto el ejercicio en clase durante la Promo Kizzi. Lo hemos dividido e
 - [09: Bonus: Incrementar productos de la cesta](https://us02web.zoom.us/rec/share/EYY1HVGy7ljeKacwfaxzhxOSrjXCCbge_JoqUah7Qdk0vBuMA3X8fmUHDpTksZLH.A34aruEvxMBEldRu)
 - [10: Bonus: Decrementar y borrar productos de la cesta](https://www.youtube.com/watch?v=cMEpHV7FbnE)
 - [11: Bonus: Guardar la cesta en el local storage](https://www.youtube.com/watch?v=6ahr9tJm4a4)
-- [12: Pasar componente App a componente de Clase](https://www.youtube.com/HxsGrbzDmE4)
+- [12: Pasar componente App a componente de Clase](https://www.youtube.com/watch?v=HxsGrbzDmE4)
